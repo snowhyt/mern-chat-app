@@ -10,7 +10,7 @@ dotenv.config();
 //middleware
 app.use(express.json()); //to parse the incoming request with JSON payloads (from req.body)
 app.use("/api/auth",authRoutes);
-app.use("/api/auth/messages",messageRoutes);
+app.use("/api/messages",messageRoutes);
 
 
 
